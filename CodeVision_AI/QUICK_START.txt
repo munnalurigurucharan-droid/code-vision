@@ -1,0 +1,25 @@
+CODEVISION AI — QUICK START (WINDOWS)
+=====================================
+
+1. Install Python 3.11/3.12/3.13 and Node.js 20 or newer.
+2. Extract this entire ZIP.
+3. Double-click start_windows.bat. It installs dependencies and starts two servers.
+4. Open http://127.0.0.1:5173 and click "Explore interactive demo".
+5. Open Agent memory. For ACTUAL Hindsight memory, edit .env:
+     HINDSIGHT_API_KEY=your_hindsight_cloud_key
+   Then stop/restart both backend and frontend terminals.
+6. Click "Retain sample fix". Look for "Saved to real Hindsight".
+7. Open AI investigator. Ask the example question once WITHOUT memory,
+   then AGAIN with memory, and show the Hindsight evidence.
+8. Optional: Add GROQ_API_KEY to .env for LLM explanations.
+
+NOTE: Local static demo works without secrets. Real Hindsight retain / recall
+and Groq generation only work with the actual services configured.
+No deployment or public publication is included.
+
+TEAM MATERIALS:
+- docs/START_HERE_TEAM.md: split the 3-person responsibilities
+- docs/VIDEO_SCRIPT.md: 3-minute recording script
+- content/: three article drafts and three LinkedIn post drafts
+- docs/SUBMISSION_LINKS.md: final submission checklist and URLs
+- docs/JUDGE_QA.md: short answers for judging

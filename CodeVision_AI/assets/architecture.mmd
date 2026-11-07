@@ -1,0 +1,14 @@
+flowchart TB
+    Dev[Developer / Presenter] --> UI[React CodeVision UI]
+    UI --> API[FastAPI API]
+    API --> Import[Public GitHub ZIP / User ZIP]
+    Import --> Guard[Path / Size / Secret-file Filters]
+    Guard --> AST[Python AST]
+    Guard --> JS[JS/TS Import Scanner]
+    AST --> Repo[(Local SQLite)]
+    JS --> Repo
+    API --> Groq[Groq - Optional Investigation]
+    API --> H[Hindsight SDK - Real API]
+    H --> R1[retain - Persist Incident]
+    H --> R2[recall - Related Historical Evidence]
+    H --> R3[reflect - Synthesize Lessons]

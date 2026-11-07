@@ -1,0 +1,16 @@
+digraph CodeVision {
+  graph [bgcolor="#0c1322",pad="0.6",ranksep="0.9",nodesep="0.35",label="CODEVISION AI  |  SYSTEM ARCHITECTURE",labelloc="t",fontname="DejaVu Sans",fontcolor="#c8e9dc",fontsize=21,rankdir=LR];
+  node [shape=box,style="rounded,filled",fontname="DejaVu Sans",fontsize=11,color="#3d536b",fontcolor="#e9f3ff",fillcolor="#19283f",margin="0.25,0.18"];
+  edge [color="#88abbe",penwidth=1.8,arrowsize=0.7];
+  developer [label="Developer",fillcolor="#233d4b"];
+  react [label="React UI\nExplorer · Diagrams · Memory"];
+  api [label="FastAPI Backend",fillcolor="#253550"];
+  parser [label="Python AST\nJS/TS import scan"];
+  sqlite [label="SQLite\nProject snapshots",shape=cylinder];
+  groq [label="Groq (optional)\nGrounded explanations",fillcolor="#302d4f"];
+  hindsight [label="Hindsight API\nRetain · Recall · Reflect",fillcolor="#1c483e",color="#4eab8c"];
+  developer -> react -> api;
+  api -> parser -> sqlite;
+  api -> groq;
+  api -> hindsight;
+}

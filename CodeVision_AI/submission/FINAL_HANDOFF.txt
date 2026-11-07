@@ -1,0 +1,18 @@
+CODEVISION AI — TEAM SUBMISSION HANDOFF
+
+1. Builder runs start_windows.bat, connects Hindsight, confirms actual retain/recall, tests and GitHub repo.
+2. Video presenter follows docs/VIDEO_SCRIPT.md and records one public 2–5 minute 1080p YouTube video.
+3. Publishing coordinator edits and publishes content/ARTICLE_1..3 and content/LINKEDIN_1..3.
+4. Each team member publishes one public article and one public social post. One public team YouTube video is sufficient per content guide.
+5. Share one published article with an approved Reddit Link post.
+6. All team members download/use Band AI desktop as required by problem statement.
+7. Collect every URL in docs/SUBMISSION_LINKS.md. A Google Drive folder alone is not submission.
+8. DO NOT mention the event in public article/post title/body/hashtags.
+9. Do not fake live memory success, deployment, performance results or screenshots.
+
+BUILDER STATUS AT PACKAGE GENERATION:
+- Backend unit/API tests: 15 passed
+- Frontend: source generated; npm install/build unverified due unavailable registry in the build environment
+- Real Hindsight: not connected / not verified (requires user's own credentials)
+- Groq: not connected / not verified (optional)
+- Public GitHub repo, deployment, video, articles/social posts: NOT published
